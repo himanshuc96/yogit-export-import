@@ -6,14 +6,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "npm install --legacy-peer-deps && next build"
   },
   "dependencies": {
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "next-i18next": "13.1.6",
-    "i18next": "23.6.0",
+    "i18next": "22.4.15",
     "nodemailer": "6.9.11",
     "pdfkit": "0.13.0"
   }
