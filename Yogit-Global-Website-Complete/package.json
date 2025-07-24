@@ -1,0 +1,20 @@
+
+{
+  "name": "yogit-global",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next-i18next": "13.1.6",
+    "i18next": "23.6.0",
+    "nodemailer": "6.9.11",
+    "pdfkit": "0.13.0"
+  }
+}
